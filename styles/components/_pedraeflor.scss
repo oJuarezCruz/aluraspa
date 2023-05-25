@@ -1,0 +1,31 @@
+@import '../abstract/variables';
+
+#pedra-e-flor {
+    text-align: center;
+    margin-top: 3rem;
+
+    .pedra-e-flor-img {
+        img {
+            max-width: 60%;
+        }
+    }
+
+    .pedra-e-flor-texto {
+        h3 {
+            font-size: $tamanho-do-texto / 2;
+            font-weight: 300;
+            padding-bottom: 0.75rem;
+        }
+
+        h4 {
+            font-size: $tamanho-do-texto / 1.5;
+            font-weight: 400;
+            color: $cor-secundaria;
+            padding-bottom: 1.5rem;
+        }
+
+        p {
+            font-weight: 300;
+        }
+    }
+}

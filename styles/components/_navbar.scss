@@ -1,0 +1,26 @@
+@import '../abstract/variables';
+
+nav {
+    text-align: center;
+    background-color: $cor-terciaria;
+    ul {
+        li {
+            display: inline-block;
+            padding: 1rem;
+            a {
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: bold;
+                color: $cor-primaria;
+                &:hover {
+                   border-bottom: 2px solid $cor-secundaria;
+                   transition: border-bottom, .5s;
+                }
+
+                &:hover {
+                    transition: border-bottom, .5s;
+                }
+            }
+        }
+    }
+}
